@@ -1,14 +1,13 @@
 .Card {
     margin: 15px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(128, 90, 189);
     border-radius: 10px;
     font-size: 1rem;
     overflow: hidden;
-    background-color: rgb(119, 214, 226);
-    color: white;
+    background-color: rgb(39, 18, 73);
 }
 
 .Card .Content {
     padding: 20px;
-    color: white;
+    color: rgb(128, 90, 189);
 }

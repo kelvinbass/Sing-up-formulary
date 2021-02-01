@@ -1,5 +1,8 @@
 body {
-    background-color: black;
+    background: #948E99;
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);  
+    background: linear-gradient(to right, #2E1437, #948E99); 
+
     font-family: sans-serif;
     font-weight: 300;
 }

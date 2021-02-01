@@ -1,0 +1,78 @@
+Label {
+    text-shadow: 2px 2px black;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(2, 0, 0);
+    font-size: 110%;
+    padding: 10px;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    background-color: rgb(74, 44, 109);
+    color: rgb(255, 255, 255);
+}
+
+.Cpf {
+    margin-left: 27px;
+}
+
+.Nascimento {
+    margin-left: -9px;
+}
+
+.Birthday {
+    margin-left: 7px;
+    padding: 1px;
+}
+
+.Sexo {
+    margin: 1px;
+    margin-left: px;
+    margin-right: -10px;
+}
+
+.Radio {
+    margin-right: 5px;
+    color: black
+}
+
+.Email {
+    margin-left: 24px;
+}
+
+.Endereço {
+    margin-top: 50px;
+}
+
+.Rua {
+    margin-left: 25px;
+}
+
+.Estado {
+    margin-left: 8px;
+}
+
+.Pais {
+    margin-left: 22px;
+}
+
+.Fone {
+    padding-top: 30px;
+}
+
+.Campo {
+    padding-top: 50px;
+}
+
+.Obs {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgb(74, 44, 109);
+    color: rgb(255, 255, 255);
+}
+
+#textarea {
+    margin-left: 132px;
+}

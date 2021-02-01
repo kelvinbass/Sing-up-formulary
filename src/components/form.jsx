@@ -1,60 +1,72 @@
 /* eslint-disable import/no-anonymous-default-export */
+import './form.css'
 import React from 'react'
 
 export default () =>
     <form className="Form">
-
-        <section className="Name">
-            <label For="Name"><strong>Name: </strong></label>
+        
+        <section>
+            <label For="Name"><strong>Nome </strong></label>
             <input type="text"/>
 
-            <label For="Lastname"><strong>Last Name: </strong></label>
+            <label For="Lastname"><strong>Sobrenome</strong></label>
             <input type="text"/>
         </section>
 
-        <section className="Personal">
-            <label><strong>Social ID: </strong>
-                <input type="number"/>
+        <section ><p></p>
+            <label><strong>CPF</strong>
+                <input className="Cpf" type="number"/>
             </label>
 
-            <label><strong>Birthday: </strong>
-                <input type="date"/>
+            <label className="Nascimento"><strong>Nascimento</strong>
+                <input className="Birthday" type="date"/>
             </label>
         </section>
 
-        <div className="Email">
-            <label For="Email"><strong>Email: </strong></label>
-            <input type="email"/>
+        <div><p></p>
+            <label className="Sexo"><strong>Sexo</strong>
+                <input className="Radio" type="radio"  name="sexo" checked/><strong>Masculino</strong>
+            </label>
+            <label >
+                <input className="Radio" type="radio" name="sexo"/><strong>Feminino</strong>
+            </label>
         </div>
 
-        <section className="Endress">
-            <label For="Endress"></label>
-                <label><strong>Street: </strong>
-                    <input type="text"/>
-                </label>
+        <section className="Endereço"><p></p>
+            <label For="Street"><strong>Rua</strong></label>
+            <input className="Rua" type="text"/>
+    
 
-                <label><strong>Nº </strong>
-                    <input type="number"/>
-                </label>
-
-            <section>
-                <label><strong>City: </strong>
-                    <input type="text"/>
-                </label>
-
-                <label><strong>State: </strong>
-                    <input type="text"/>
-                </label>
-            </section>
-
-            <div>
-                <label For="Country"><strong>Country: </strong></label>
-                <input type="text"/>
-            </div>
+            <label For="Number"><strong>Número</strong></label>
+            <input ClassName="Numero" type="number" />
         </section>
 
-        <div className="Fone">
-            <label For="Fone"><strong>Tel: </strong></label>
-            <input type="tel" placeholder="(xx) xxxxx-xxxx"/>
+        <section><p></p>
+            <label For="City"><strong>Cidade</strong></label>
+            <input type="text"/>
+
+            <label For="State"><strong>Estado</strong></label>
+            <input className="Estado" type="text"/>
+        </section>
+
+        <div><p></p>
+            <label  For="Country"><strong>País</strong></label>
+            <input className="Pais" type="text"/>
         </div>
+        
+        <div className="Fone"><p></p>
+            <label For="Email"><strong>Email</strong></label>
+            <input className="Email" type="email"/>
+        </div>
+
+        <div ><p></p>
+            <label  For="Fone"><strong>Telefone</strong></label>
+            <input  type="tel" placeholder="(xx) xxxxx-xxxx"/>
+        </div> 
+
+        <div className="Campo"><p></p>
+            <label id="textarea"><strong>Faça um breve resumo sobre você.</strong><p></p>
+                <textarea className="Obs" name="areadetexo" id="" cols="76" rows="6"></textarea>
+            </label>
+        </div>   
     </form>

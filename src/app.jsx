@@ -9,7 +9,7 @@ export default (props) => (
     <div className="App">
         <Card>
             <div className="Title">
-                <h2>Sing Up</h2>
+                <h2>Cadastro Obrigatório</h2>
             </div>
             <Form></Form>
         </Card>
